@@ -1,0 +1,139 @@
+@media only screen and (min-width: 769px) {
+  .about-container {
+    background-color: #c2c5c7;
+    .about-header {
+      display: flex;
+      background-color: #c2c5c7;
+      height: auto;
+      align-items: center;
+      .about-header-contents {
+        margin-top: 75px;
+        margin-left: 10%;
+        margin-right: 10%;
+        .about-title {
+          padding-top: 20px;
+          font-weight: 500;
+          font-size: 50px;
+          color: #545759;
+        }
+        .about-description {
+          line-height: 30px;
+          padding-top: 60px;
+          font-weight: 200;
+          font-size: 30px;
+          color: #545759;
+          > * {
+            color: #800000;
+            font-weight: 200;
+          }
+        }
+      }
+    }
+    .about-mission {
+      display: flex;
+      height: auto;
+      .about-mission-content {
+        margin-top: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        .about-mission-title {
+          font-size: 50px;
+          font-weight: 300;
+          color: #9e0000;
+        }
+        .about-mission-statement {
+          color: #545759;
+          padding-top: 10px;
+          line-height: 38px;
+          font-size: 30px;
+          font-weight: 200;
+          > * {
+            color: #9e0000;
+          }
+        }
+      }
+    }
+    .about-container-img {
+      display: flex;
+      margin-top: 75px;
+      padding-bottom: 75px;
+      .about-img {
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .about-container {
+    background-color: #c2c5c7;
+    line-height: 18px;
+    .about-header {
+      display: flex;
+      background-color: #c2c5c7;
+      height: auto;
+      align-items: center;
+      .about-header-contents {
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 20px;
+        .about-title {
+          font-weight: 500;
+          font-size: 25px;
+          color: #545759;
+        }
+        .about-description {
+          padding-top: 25px;
+          font-weight: 200;
+          font-size: 15px;
+          color: #545759;
+          > * {
+            color: #800000;
+            font-weight: 200;
+          }
+        }
+      }
+    }
+    .about-mission {
+      display: flex;
+      height: auto;
+      .about-mission-content {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        .about-mission-title {
+          font-size: 25px;
+          font-weight: 300;
+          color: #9e0000;
+        }
+        .about-mission-statement {
+          color: #545759;
+          font-size: 15px;
+          font-weight: 200;
+          > * {
+            color: #9e0000;
+          }
+        }
+      }
+    }
+  }
+  .about-container-img {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    .about-img {
+      border-radius: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+      height: 70%;
+    }
+  }
+}
